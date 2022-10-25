@@ -4,6 +4,8 @@ import App from './App'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    <div style={{ display: "flex", justifyContent: "center" }}>
+      <App />
+    </div>
   </React.StrictMode>
 )
